@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img/t2.png);
+	height: 15vh;
+	background-size: cover;
+	background-position: center;
+}
+ul{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),;
+	height: 10vh;
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid;
+	transition: 0.6s;
+	margin: 10px;
+
+}
+ul li a:hover{
+	background-color: #fff;
+	color: rgb(0, 0, 0);}
+
+.button{
+	padding-top: 10px;
+	color: #fff;
+}
+.tg{
+    width: 10000px;
+    margin-left: 33vh;
+    padding-top: 30vh;   
+}
